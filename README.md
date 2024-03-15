@@ -1,2 +1,2 @@
 # DORA-Project
-Dora
+Dora Project
