@@ -1,17 +1,24 @@
 <mat-card class="intro-card">
     <mat-card-header>
-      <mat-card-title>DORA</mat-card-title>
-      <mat-card-subtitle>what is dora</mat-card-subtitle>
+        <mat-card-title>DORA</mat-card-title>
+        <mat-card-subtitle>what is dora</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
         <div class="box">
-        <img mat-card-image width="200px" src="assets/dora.jpeg" alt="Photo of a Dora">
+            <img mat-card-image width="200px" src="assets/dora.jpeg" alt="Photo of a Dora">
         </div>
         <div class="content">
             <p>
-                The Digital Operational Resilience Act (Regulation (EU) 2022/2554) solves an important problem in the EU financial regulation. Before DORA, financial institutions managed the main categories of operational risk mainly with the allocation of capital, but they did not manage all components of operational resilience. 
-                After DORA, they must also follow rules for the protection, detection, containment, recovery and repair capabilities against ICT-related incidents. DORA explicitly refers to ICT risk and sets rules on ICT risk-management, incident reporting, operational resilience testing and ICT third-party risk monitoring. 
-                This Regulation acknowledges that ICT incidents and a lack of operational resilience have the possibility to jeopardise the soundness of the entire financial system, even if there is "adequate" capital for the traditional risk categories.
+                The Digital Operational Resilience Act (Regulation (EU) 2022/2554) solves an important problem in the EU
+                financial regulation. Before DORA, financial institutions managed the main categories of operational
+                risk mainly with the allocation of capital, but they did not manage all components of operational
+                resilience.
+                After DORA, they must also follow rules for the protection, detection, containment, recovery and repair
+                capabilities against ICT-related incidents. DORA explicitly refers to ICT risk and sets rules on ICT
+                risk-management, incident reporting, operational resilience testing and ICT third-party risk monitoring.
+                This Regulation acknowledges that ICT incidents and a lack of operational resilience have the
+                possibility to jeopardise the soundness of the entire financial system, even if there is "adequate"
+                capital for the traditional risk categories.
             </p>
         </div>
     </mat-card-content>
@@ -20,39 +27,46 @@
 
 <mat-card class="intro-card">
     <mat-card-header>
-      <mat-card-title>About GAPIQ</mat-card-title>
-      <mat-card-subtitle></mat-card-subtitle>
+        <mat-card-title>About GAPIQ</mat-card-title>
+        <mat-card-subtitle></mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
         <p>
-            A Gap Analysis Tool is a powerful business resource designed to assess the variance between current and desired states within an organization. By systematically comparing existing processes, performance, and capabilities against predetermined benchmarks or goals, this tool identifies gaps or disparities. 
-            It provides actionable insights, enabling businesses to streamline operations, optimize efficiency, and implement targeted improvements. Through a comprehensive analysis of strengths and weaknesses, the tool guides strategic decision-making, facilitating a more informed approach to organizational development and goal attainment.
+            A Gap Analysis Tool is a powerful business resource designed to assess the variance between current and
+            desired states within an organization. By systematically comparing existing processes, performance, and
+            capabilities against predetermined benchmarks or goals, this tool identifies gaps or disparities.
+            It provides actionable insights, enabling businesses to streamline operations, optimize efficiency, and
+            implement targeted improvements. Through a comprehensive analysis of strengths and weaknesses, the tool
+            guides strategic decision-making, facilitating a more informed approach to organizational development and
+            goal attainment.
         </p>
         <div>
-           <img mat-card-image width="75%" style="padding-left: 50px;" src="assets/Story_Board.png" alt="Photo of a Dora">
+            <img mat-card-image width="75%" style="padding-left: 50px;" src="assets/Story_Board.png"
+                alt="Photo of a Dora">
         </div>
     </mat-card-content>
 </mat-card>
 <br><br>
 <app-dashboard></app-dashboard>
 <br><br>
-<div>
-<mat-card>
-    <mat-card-header>
-      <mat-card-title style="padding-bottom: 30px;">GAP Evaluation</mat-card-title>
-      <mat-card-subtitle></mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content style="display: flex; justify-content: center;">
+<div style="position: relative;">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title style="padding-bottom: 30px;">GAP Evaluation</mat-card-title>
+            <mat-card-subtitle></mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content style="display: flex; justify-content: center;">
 
-        <button class="button" style="vertical-align:middle"><span>Identity</span></button>
-        <button class="button" style="vertical-align:middle"><span>Protect and Prevent</span></button>
-        <button class="button" style="vertical-align:middle"><span>Detect</span></button>
-        <button class="button" style="vertical-align:middle"><span>Respose and Recover</span></button>
-        
-    </mat-card-content>
-    <mat-card-content style="display: flex; justify-content: center;">
-        <button class="button" style="vertical-align:middle;"><span>Learn and Evolve</span></button>
-        <button class="button" style="vertical-align:middle"><span>Communicate</span></button>
-    </mat-card-content>
-</mat-card>
+            <a [routerLink]="['/identity']"><button class="button"
+                    style="vertical-align:middle"><span>Identity</span></button></a>
+            <button class="button" style="vertical-align:middle"><span>Protect and Prevent</span></button>
+            <button class="button" style="vertical-align:middle"><span>Detect</span></button>
+            <button class="button" style="vertical-align:middle"><span>Respose and Recover</span></button>
+
+        </mat-card-content>
+        <mat-card-content style="display: flex; justify-content: center;">
+            <button class="button" style="vertical-align:middle;"><span>Learn and Evolve</span></button>
+            <button class="button" style="vertical-align:middle"><span>Communicate</span></button>
+        </mat-card-content>
+    </mat-card>
 </div>

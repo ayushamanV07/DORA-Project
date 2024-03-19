@@ -1,0 +1,132 @@
+{
+  "questions": [
+    {
+      "Identify": [
+        {
+          "questionText": "Procedural red traffic light signifies that a driver should do what?",
+          "options": [
+            {
+              "text": "Implemented"
+            },
+            {
+              "text": "Not Implemented",
+              "selectedOption": "Not Implemented"
+            },
+            {
+              "text": "Partially Implemented"
+            }
+          ],
+          "Type": "Procedural"
+        },
+        {
+          "questionText": "Technical red traffic light signifies that a driver should do what?",
+          "options": [
+            {
+              "text": "Implemented"
+            },
+            {
+              "text": "Not Implemented"
+            },
+            {
+              "text": "Partially Implemented"
+            }
+          ],
+          "Type": "Technical"
+        },
+        {
+          "questionText": "Operational red traffic light signifies that a driver should do what?",
+          "options": [
+            {
+              "text": "Implemented"
+            },
+            {
+              "text": "Not Implemented"
+            },
+            {
+              "text": "Partially Implemented"
+            }
+          ],
+          "Type": "Operational"
+        },
+        {
+          "questionText": "Technical2 red traffic light signifies that a driver should do what?",
+          "options": [
+            {
+              "text": "Implemented"
+            },
+            {
+              "text": "Not Implemented"
+            },
+            {
+              "text": "Partially Implemented"
+            }
+          ],
+          "Type": "Technical"
+        }
+      ],
+      "Detect": [
+        {
+          "questionText": " Detect Procedural red traffic light signifies that a driver should do what?",
+          "options": [
+            {
+              "text": "Implemented"
+            },
+            {
+              "text": "Not Implemented"
+            },
+            {
+              "text": "Partially Implemented"
+            }
+          ],
+          "Type": "Procedural"
+        },
+        {
+          "questionText": " Detect Technical red traffic light signifies that a driver should do what?",
+          "options": [
+            {
+              "text": "Implemented"
+            },
+            {
+              "text": "Not Implemented"
+            },
+            {
+              "text": "Partially Implemented"
+            }
+          ],
+          "Type": "Technical"
+        },
+        {
+          "questionText": "Detect Operational red traffic light signifies that a driver should do what?",
+          "options": [
+            {
+              "text": "Implemented"
+            },
+            {
+              "text": "Not Implemented"
+            },
+            {
+              "text": "Partially Implemented"
+            }
+          ],
+          "Type": "Operational"
+        },
+        {
+          "questionText": "Detect Technical2 red traffic light signifies that a driver should do what?",
+          "options": [
+            {
+              "text": "Implemented"
+            },
+            {
+              "text": "Not Implemented"
+            },
+            {
+              "text": "Partially Implemented"
+            }
+          ],
+          "Type": "Technical"
+        }
+      ]
+
+    }
+  ]
+}
